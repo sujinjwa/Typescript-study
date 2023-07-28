@@ -1,0 +1,15 @@
+// tsconfig.json 파일 = 컴파일러 옵션 설정 파일
+
+{
+  "compilerOptions": {
+    "target": "ESNext", // target: 컴파일 결과 생성되는 js코드의 버전 설정 (ESNext = 최신 js)
+    "module": "ESNext", // module: 컴파일 결과 생성되는 js코드의 모듈 시스템 설정
+    "outDir": "dist", // outDir: 컴파일 결과 생성되는 js 파일들의 위치 설정
+    "strict": true, // strict: 엄격한 타입 검사 여부 결정
+    "moduleDetection": "force" // moduleDeletion: 모든 ts파일에 export 키워드 자동 추가하여 격리된 모듈로 취급하기 위한 옵션
+  },
+  "ts-node": {
+    "esm": true // ts-node 이용해 타입스크립트 즉시 실행 위한 설정
+  },
+  "include": ["src"] // include: tsc로 컴파일 할 ts 파일 범위 설정
+}
