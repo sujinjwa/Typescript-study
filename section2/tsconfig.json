@@ -6,6 +6,7 @@
     "module": "ESNext", // module: 컴파일 결과 생성되는 js코드의 모듈 시스템 설정
     "outDir": "dist", // outDir: 컴파일 결과 생성되는 js 파일들의 위치 설정
     "strict": true, // strict: 엄격한 타입 검사 여부 결정
+    // "strictNullChecks": false, // strickNullChecks: 다른 타입 변수에 null값 할당 허용 여부 설정
     "moduleDetection": "force" // moduleDeletion: 모든 ts파일에 export 키워드 자동 추가하여 격리된 모듈로 취급하기 위한 옵션
   },
   "ts-node": {
