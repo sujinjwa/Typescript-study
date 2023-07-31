@@ -23,6 +23,6 @@ let null1: null = null;
 // undefined
 let unde1: undefined = undefined;
 
-let numA: number = null; // 오류
+// let numA: number = null; // 오류
 
-num1 = null; // 오류
+// num1 = null; // 오류
