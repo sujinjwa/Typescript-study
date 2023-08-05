@@ -7,13 +7,13 @@ function func(): void {
 let a: void;
 a = undefined;
 
-a = 1; // 오류 !
-a = '123'; // 오류 !
+// a = 1;       // 오류 !
+// a = '123';   // 오류 !
 
 // "strictNullChecks: false" 일 경우
 let b: void;
 b = undefined;
-b = null;
+// b = null;
 
 // 함수의 반환값을 null값으로 설정해주면 꼭 null값을 반환해주어야 함
 function func3(): null {
@@ -32,11 +32,11 @@ function func5(): never {
   throw new Error();
 }
 
-let a: never;
+let a1: never;
 
-a = 1;
-a = null;
-a = undefined;
+// a1 = 1;          // 오류 !
+// a1 = null;       // 오류 !
+// a1 = undefined;  // 오류 !
 
 let anyVar: any;
-a = anyVar;
+// a1 = anyVar;     // 오류 !

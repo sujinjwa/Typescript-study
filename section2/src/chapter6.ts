@@ -30,4 +30,4 @@ let unknownVar2: unknown;
 unknownVar2 = '';
 unknownVar2 = 1;
 
-num = unknownVar; // 오류 발생
+// num = unknownVar; // 오류 발생
