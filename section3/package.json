@@ -1,0 +1,14 @@
+{
+  "name": "section3",
+  "version": "1.0.0",
+  "description": "what i studied about typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Sujin Jo",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^20.5.9"
+  }
+}
